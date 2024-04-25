@@ -1,6 +1,4 @@
-# Skia Animation Showcase
-
-This is a showcase of all animations from the Dan's React-Native Lab Channel!
+# Skia, D3, reanimated education repos
 
 The repo uses Expo GO to run the code all you need to do is
 
