@@ -19,7 +19,6 @@ export const HomeScreen = () => {
   const nav = useNavigation<any>();
 
   const goToScreen = (name: string) => {
-    console.log(name)
     nav.push(name);
   };
 

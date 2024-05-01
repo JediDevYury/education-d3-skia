@@ -1,4 +1,4 @@
 export interface Screen {
   name: string;
-  component: () => JSX.Element;
+  component: () => JSX.Element | null;
 }

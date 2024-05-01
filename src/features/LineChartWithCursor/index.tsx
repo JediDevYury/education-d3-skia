@@ -7,7 +7,7 @@ import AnimatedText from "./AnimatedText";
 import {useFont} from "@shopify/react-native-skia";
 import {useSharedValue} from "react-native-reanimated";
 
-const LineChartWithCursor = () => {
+export const LineChartWithCursor = () => {
   const CHART_HEIGHT = 400
   const CHART_MARGIN = 20
   const {width: CHART_WIDTH} = useWindowDimensions()
@@ -52,5 +52,3 @@ const styles = StyleSheet.create({
     fontFamily: 'Roboto-Regular',
   },
 });
-
-export default LineChartWithCursor;
